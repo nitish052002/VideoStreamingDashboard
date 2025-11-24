@@ -1,0 +1,72 @@
+# ------------------------------
+# OS Files
+# ------------------------------
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ------------------------------
+# Node Modules (Frontend + Backend)
+# ------------------------------
+Backend/node_modules/
+Frontend/node_modules/
+node_modules/
+
+# ------------------------------
+# Environment Files (Secrets)
+# ------------------------------
+Backend/.env
+Frontend/.env
+.env
+.env.local
+.env.*.local
+
+# ------------------------------
+# Build / Dist / Output folders
+# ------------------------------
+Backend/dist/
+Backend/build/
+Frontend/dist/
+Frontend/build/
+dist/
+build/
+
+# ------------------------------
+# Logs
+# ------------------------------
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# ------------------------------
+# Editor / IDE
+# ------------------------------
+.vscode/
+.idea/
+*.iml
+
+# ------------------------------
+# Cache
+# ------------------------------
+.cache/
+.temp/
+.next/
+.nuxt/
+.svelte-kit/
+
+# React/Vite specific
+Frontend/.vite/
+Frontend/.next/
+
+# ------------------------------
+# Misc
+# ------------------------------
+*.pid
+*.seed
+*.pid.lock
+
+# TypeScript
+*.tsbuildinfo
