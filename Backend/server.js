@@ -1,16 +1,18 @@
+require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
 const { spawn } = require("child_process");
 const path = require("path");
 const fs = require("fs");
 
+
 const app = express();
 app.use(cors());
 
-const PORT = 5000;
-// const RTSP_URL = "rtsp://localhost:8554/live";
-const RTSP_URL = "rtsp://13.60.76.79:8554/live3";
-const STREAMS_DIR = path.join(__dirname, "streams");
+const PORT = process.env.PORT || 5000;
+const RTSP_URL = process.env.RTSP_URL;
+const STREAMS_DIR = process.env.STREAMS_DIR || path.join(__dirname, "streams");
+
 
 
 for (let i = 1; i <= 6; i++) {
