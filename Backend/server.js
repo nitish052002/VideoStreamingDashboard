@@ -11,9 +11,11 @@ app.use(cors());
 
 const PORT = process.env.PORT || 5000;
 const RTSP_URL = process.env.RTSP_URL;
-const STREAMS_DIR = process.env.STREAMS_DIR || path.join(__dirname, "streams");
+ 
+const STREAMS_DIR = path.join(__dirname, "streams");
 
 
+ 
 
 for (let i = 1; i <= 6; i++) {
   const dir = path.join(STREAMS_DIR, `stream${i}`);
