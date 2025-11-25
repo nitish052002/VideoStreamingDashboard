@@ -305,13 +305,6 @@ Live URL:
 
 <br /><br />
 
-# 🎖️ Author
-
-### 👨‍💻 Nitish Sharma
-Full-Stack & Frontend Developer
-
-
-
 # 🛠️ Tech Stack
 
 ## 🎨 Frontend
@@ -335,14 +328,20 @@ Full-Stack & Frontend Developer
 
 ## 🎯 Features Overview
 
-# - 🔴 Real live RTSP camera streaming
+### - 🔴 Real live RTSP camera streaming
 
-# - 🎬 Automatic RTSP → HLS conversion
+### - 🎬 Automatic RTSP → HLS conversion
 
-# - 🎞️ Six synchronized video players
+### - 🎞️ Six synchronized video players
 
-# - ⚡ Low-latency 2-second HLS
+### - ⚡ Low-latency 2-second HLS
 
-# - 📦 Easy deployment on Render
+### - 📦 Easy deployment on Render
 
-# - 💻 Fully responsive grid layout
+### - 💻 Fully responsive grid layout
+
+<br /><br />
+# 🎖️ Author
+
+### 👨‍💻 Nitish Sharma
+Full-Stack & Frontend Developer
