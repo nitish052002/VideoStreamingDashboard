@@ -267,38 +267,61 @@ http://localhost:3000
 
 
 ## 🌍 Deployment Guide
-Backend Deployment (Render)
+
+### Backend Deployment (Render)
 
 Choose Web Service
 
-Root Directory: `Backend`
+- Root Directory: `Backend`
 
-Build Command: `npm install`
+- Build Command: `npm install`
 
-Start Command: `npm start`
+- Start Command: `npm start`
 
-Set environment variables if using .env
+- Set environment variables if using .env
 
-Frontend Deployment (Vercel)
+### Frontend Deployment (Vercel)
 
-Import GitHub repo
+- Import GitHub repo
 
-Root Directory: `Frontend`
+- Root Directory: `Frontend`
 
-Build Command: `npm run build`
+- Build Command: `npm run build`
 
-Output Directory: `build`
+- Output Directory: `build`
+
+
+
+## 🌍 (Render + Netlify)
+### ✓ Backend (Node.js) – Render
+
+Live URL:
+- 👉 [https://videostreamingdashboard.onrender.com]("https://videostreamingdashboard.onrender.com")
+
+### ✓ Frontend (React) – Netlify
+
+Live URL:
+- 👉 [https://strdashboardnitish.netlify.app/]("https://strdashboardnitish.netlify.app/")
+
+## 🎖️ Author
+
+###👨‍💻 Nitish Sharma
+Full-Stack & Frontend Developer
 
 
 
 # 🛠️ Tech Stack
-<div align="center">
-Frontend
 
+## 🎨 Frontend
+<!-- React --> <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" /> <!-- TypeScript --> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" /> <!-- HTML --> <img src="https://img.shields.io/badge/HTML5-e34c26?style=for-the-badge&logo=html5&logoColor=white" /> <!-- CSS --> <img src="https://img.shields.io/badge/CSS3-1572b6?style=for-the-badge&logo=css3&logoColor=white" /> <!-- Tailwind --> <img src="https://img.shields.io/badge/Tailwind_CSS-0ea5e9?style=for-the-badge&logo=tailwindcss&logoColor=white" /> <!-- React Icons --> <img src="https://img.shields.io/badge/React_Icons-E91E63?style=for-the-badge&logo=react&logoColor=white" />
 
+<br /><br />
 
+## ⚙️ Backend
+<!-- Node --> <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" /> <!-- Express --> <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" /> <!-- CORS --> <img src="https://img.shields.io/badge/CORS-7D4698?style=for-the-badge&logo=cors&logoColor=white" /> <!-- Dotenv --> <img src="https://img.shields.io/badge/Dotenv-ecd53f?style=for-the-badge&logo=dotenv&logoColor=black" /> <!-- FFmpeg --> <img src="https://img.shields.io/badge/FFmpeg-007808?style=for-the-badge&logo=ffmpeg&logoColor=white" /> <!-- MediaMTX --> <img src="https://img.shields.io/badge/MediaMTX-4A90E2?style=for-the-badge&logo=streamlabs&logoColor=white" />
 
-Backend
+<br /><br />
+ 
 
 
 
