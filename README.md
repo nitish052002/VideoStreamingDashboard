@@ -258,6 +258,6 @@ Build Command: `npm run build`
 
 Output Directory: `build`
 
-# 📸 Screenshots (Optional)
+# 📸 Screenshot
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/nitish052002/VideoStreamingDashboard/blob/main/Capture.PNG)
