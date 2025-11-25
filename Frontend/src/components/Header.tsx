@@ -2,7 +2,7 @@
 import { MdOutlineOndemandVideo } from "react-icons/md";
 import { FaGithub } from "react-icons/fa6";
 
-import "./header.css";
+ 
 
 const Header = () => {
   return (
@@ -29,7 +29,7 @@ const Header = () => {
               <div className="flex items-center gap-2">
                 <FaGithub className="text-green-500 text-3xl " />
                 <a
-                  href=""
+                  href="https://github.com/nitish052002/VideoStreamingDashboard"
                   className="text-sm text-slate-300 transition-all duration-300 hover:semi-bold hover:text-white hover:scale-105"
                 >
                   Github Repo
@@ -40,6 +40,8 @@ const Header = () => {
           </div>
         </div>
       </div>
+
+      <div className="bg-slate-800 rounded-2xl p-6 mb-8 border border-slate-700">Wait for a minute :)</div>
     </header>
   );
 };

@@ -11,12 +11,13 @@ import Hls from "hls.js";
 
 interface VideoPlayerProps {
   src: string;
+  label : string
 }
 
 
 
 
-const VideoCard: React.FC<VideoPlayerProps> = ({ src }) => {
+const VideoCard: React.FC<VideoPlayerProps> = ({ src , label}) => {
 
   const videoRef = useRef<HTMLVideoElement | null>(null);
 
@@ -274,7 +275,7 @@ const VideoCard: React.FC<VideoPlayerProps> = ({ src }) => {
         <div className="flex items-center gap2">
           <button className="bg-slate-700 hover:bg-slate-600 text-white text-xs px-3 py-1.5 rounded transition-colors flex items-center gap-1.5">
             <GoBroadcast className="text-sm" />
-            {`Stream 1`}
+            {label}
           </button>
         </div>
         <div className="text-xs">
