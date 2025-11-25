@@ -292,20 +292,22 @@ Choose Web Service
 
 
 
-## 🌍 (Render + Netlify)
+## 👉 (Render + Netlify)
 ### ✓ Backend (Node.js) – Render
 
 Live URL:
-- 👉 [https://videostreamingdashboard.onrender.com]("https://videostreamingdashboard.onrender.com")
+- 👉 [https://videostreamingdashboard.onrender.com](https://videostreamingdashboard.onrender.com)
 
 ### ✓ Frontend (React) – Netlify
 
 Live URL:
-- 👉 [https://strdashboardnitish.netlify.app/]("https://strdashboardnitish.netlify.app/")
+- 👉 [https://strdashboardnitish.netlify.app/](https://strdashboardnitish.netlify.app/)
 
-## 🎖️ Author
+<br /><br />
 
-###👨‍💻 Nitish Sharma
+# 🎖️ Author
+
+### 👨‍💻 Nitish Sharma
 Full-Stack & Frontend Developer
 
 
