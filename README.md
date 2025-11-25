@@ -6,6 +6,22 @@ This project is a multi-view monitoring dashboard that converts a single RTSP so
 The dashboard layout is inspired by:
 
 👉 [https://monitor.theun1t.com/](https://monitor.theun1t.com/)
+
+## 🎥 RTSP → HLS Conversion Flow
+
+```bash
+RTSP Camera
+     ↓
+MediaMTX (RTSP Server)
+     ↓
+Node.js Backend (FFmpeg Workers)
+     ↓
+6× HLS Streams (.m3u8)
+     ↓
+React Video Player Grid
+```
+
+
 🚀 Features
 ### 🔁 RTSP → HLS Conversion
 
@@ -185,21 +201,36 @@ git clone https://github.com/yourusername/VideoStreamingDashboard
 cd VideoStreamingDashboard
 ```
 
-### 🖥 Backend Setup
+## 🖥 Backend Setup
 
-Go to backend folder:
+### Install dependencies
 
-cd Backend
 ```bash
+cd Backend
 npm install
 ```
 
+### Create .env
 
-Start backend:
+```bash
+RTSP_URL=rtsp://your-camera-url
+PORT=5000
+```
+
+### Run backend
+
+## Development:
+
 ```bash
 npm start
 ```
 
+
+### Production:
+
+```bash
+node server.js
+```
 
 Your backend will run at:
 ```bash
@@ -258,6 +289,35 @@ Build Command: `npm run build`
 
 Output Directory: `build`
 
+
+
+# 🛠️ Tech Stack
+<div align="center">
+Frontend
+
+
+
+
+Backend
+
+
+
 # 📸 Screenshot
 
 ![App Screenshot](https://github.com/nitish052002/VideoStreamingDashboard/blob/main/Capture.PNG)
+
+
+
+## 🎯 Features Overview
+
+# - 🔴 Real live RTSP camera streaming
+
+# - 🎬 Automatic RTSP → HLS conversion
+
+# - 🎞️ Six synchronized video players
+
+# - ⚡ Low-latency 2-second HLS
+
+# - 📦 Easy deployment on Render
+
+# - 💻 Fully responsive grid layout
