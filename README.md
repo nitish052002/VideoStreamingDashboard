@@ -105,7 +105,7 @@ Synchronization logic
 
 A single RTSP URL is used:
 ```bash
-rtsp://localhost:8554/live
+rtsp://13.60.76.79:8554/live3
 ```
 
 2. FFmpeg Processing
@@ -161,7 +161,7 @@ Ensures equal start point.
 
 This results in near-perfect alignment across 6 video players.
 
-#🖥 React Frontend
+## 🖥 React Frontend
 Technologies:
 
 React (functional components)
@@ -179,7 +179,7 @@ Auto resizes on different screen sizes
 Real-time synchronization
 
 ## 🚀 Setup & Installation
-🔧 1. Clone Repository
+### 🔧 1. Clone Repository
 ```bash
 git clone https://github.com/yourusername/VideoStreamingDashboard
 cd VideoStreamingDashboard
